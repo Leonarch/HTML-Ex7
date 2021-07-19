@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ezercizio HTML-Form</title>
+	<style>
+		label {
+			display: block
+		}
+	</style>
+</head>
+
+<body>
+<form>
+    <div id="Login-Data">
+
+        <label for="Email">Email</label>
+        <input id="Email" type="email">
+        <label for="Password">Password</label>
+        <input id="Password" type="password">
+    </div>
+
+    <div id="Personal-Data">
+
+        <label for="Name-Data">Name & Surname</label>
+        <input id="Name-Data" type="text">
+        
+        <label for="Birthdate-Data">Birthdate</label>
+        <input id="Birthdate-Data" type="date">
+
+        <label for="Tel-Data">Telephone Number</label>
+        <input id="Tel-Data" type="tel">
+    </div>
+
+    <div id=Subscription-Data>
+
+        <label for="Pay-plan">Subscription Plan</label>
+		<select id="Pay-plan" name="plan">
+			<option value="0">Free</option>
+			<optgroup label="Monthly Subscription">
+				<option value="2">2€/Month</option>
+				<option value="5">5€/Month</option>
+				<option value="10">10€/Month</option>
+			</optgroup>
+		</select>
+
+        <label for="Pro-Option">PRO Subscription</label>
+        <input id="Pro-Option" type="checkbox">
+    </div>
+    
+    <div id="Payment-Data">
+        <label for="Card-Number">Card Number</label>
+        <input id="Card-Number" type="text">
+
+        <label for="CVC">CVC</label>
+        <input id="CVC" type="text">
+
+        <label for="Expiration-Date">Expiration Date</label>
+        <input id="Expiration-Date" type="text">
+
+        <label for="Bill-Adress">Billing Adress</label>
+        <input id="Bill-Adress" type="text">
+    </div>
+
+    <button type="submit">Subscribe</button>
+</form>
+</body>
+
+</html>
