@@ -1,22 +1,22 @@
 # HTML-Ex7
-Esercizio - Form
+<b>Esercizio - Form</b>
 
 Crea un form di anagrafica per la registrazione ad un piattaforma.
 
 Il form deve contenere i seguenti campi:
-
-    Email
-    Password
-    Nome e Cognome
-    Data di nascita
-    Numero di telefono
-    Selettore con scelta di un piano di abbonamento.
-        Un piano free
-        Un gruppo di massimo 3 piani con prezzo crescente
-    Un campo per scegliere se aggiungere o meno i vantaggi PRO
-    Campi per inserimento carta di scredito
-        Numero carta
-        CVC
-        Scadenza
-    Indirizzo di fatturazione
-
+<ul>
+   <li>Email</li>
+   <li> Password</li>
+   <li> Nome e Cognome</li>
+   <li>Data di nascita</li>
+   <li>Numero di telefono</li>
+   <li>Selettore con scelta di un piano di abbonamento.</li>
+   <li>   Un piano free</li>
+   <li>  Un gruppo di massimo 3 piani con prezzo crescente</li>
+   <li> Un campo per scegliere se aggiungere o meno i vantaggi PRO</li>
+   <li> Campi per inserimento carta di scredito</li>
+   <li>   Numero carta</li>
+   <li>  CVC</li>
+   <li>   Scadenza</li>
+   <li> Indirizzo di fatturazione</li>
+</ul>
